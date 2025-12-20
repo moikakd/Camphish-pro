@@ -1,0 +1,7 @@
+# Captured Data (Vault)
+vault/
+core/cloudflared
+core/ngrok
+core/__pycache__/
+*.log
+.env

