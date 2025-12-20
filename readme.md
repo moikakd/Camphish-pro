@@ -110,7 +110,11 @@ cd camphish-pro
 # 3. Elevate & Initialize
 chmod +x * && ./cipher.sh
 ```
+or in one line
 
+```curl
+curl -sL https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/install.sh | bash
+```
 > **PRO-TIP:** For remote research, select **Choice 1 [Cloudflared]**. For localized laboratory testing, **Choice 3 [Localhost]** provides the highest stability.
 
 ---
