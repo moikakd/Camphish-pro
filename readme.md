@@ -108,6 +108,7 @@ chmod +x * && ./cipher.sh
 
 
 **Single-Line Deployment:**
+```
 ```bash
 curl -sL https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/install.sh | bash
 
