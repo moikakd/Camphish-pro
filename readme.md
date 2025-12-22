@@ -1,91 +1,91 @@
 <div align="center">
 
 # CIPHER-CAMPHISH-PRO
-**Advanced Browser Security & Exfiltration Framework**
+**The Ultimate Browser Security Audit Tool**
 
-[![Version](https://img.shields.io/badge/version-10.0-10b981?style=for-the-badge)](https://github.com/cipher-attack/camphish-pro)
-[![Platform](https://img.shields.io/badge/platform-linux%20%2F%20termux-000000?style=for-the-badge&logo=linux)](https://github.com/cipher-attack/camphish-pro)
-[![Status](https://img.shields.io/badge/status-stable-blue?style=for-the-badge)](https://github.com/cipher-attack/camphish-pro)
+[![Version](https://img.shields.io/badge/version-10.0-10b981?style=flat-square)](https://github.com/cipher-attack/camphish-pro)
+[![Platform](https://img.shields.io/badge/platform-linux%20%2F%20termux-000000?style=flat-square&logo=linux)](https://github.com/cipher-attack/camphish-pro)
+[![Status](https://img.shields.io/badge/status-stable-blue?style=flat-square)](https://github.com/cipher-attack/camphish-pro)
 
 ---
 
-**"Deciphering the future before it happens.."**
-*A professional-grade framework for auditing browser sandboxes and analyzing telemetry exfiltration.*
+**"I build what others fear to understand."**
+*A tool for testing how browsers leak data and checking system vulnerabilities.*
 
 </div>
 
-###  Overview
-**CIPHER-CAMPHISH-PRO** is a specialized security research tool designed to evaluate the integrity of browser sandboxes. It enables real-time monitoring and aggregation of system telemetry, media streams, and sensitive hardware metadata to demonstrate potential exfiltration vectors.
+### Overview
+**CIPHER-CAMPHISH-PRO** is my personal research framework for testing browser security. It helps to see how easy it is for websites to grab system info, camera access, and location data if the browser isn't properly locked down. I built this to show real-world data leak examples.
 
 ---
 
-###  Core Operational Modules
+### Core Operational Modules
 
-| Module | Identifier | Functionality | Status |
+| Module | Identifier | What it does | Status |
 | :--- | :--- | :--- | :--- |
-| **Visual Audit** | `CAM-SYNC` | Periodic high-fidelity camera frame capture. | **STABLE** |
-| **Data Exfiltration** | `EXFIL-CORE` | Multi-threaded binary and media dispatch engine. | **HIGH** |
-| **Location Intelligence**| `GPS-SYNC` | High-precision coordinate and Lat/Long mapping. | **STABLE** |
-| **Clipboard Analysis** | `CLIP-SYNC` | Real-time harvesting of volatile system clipboard data. | **ACTIVE** |
-| **Device Fingerprint** | `DNA-CORE` | Extraction of GPU, RAM, CPU, and battery telemetry. | **STABLE** |
-| **Network Discovery** | `IP-BYPASS` | Identifying internal network IPs via WebRTC leaks. | **BYPASS** |
+| **Camera Access** | `CAM-SYNC` | Takes photos from the front/back camera. | **STABLE** |
+| **Data Mover** | `EXFIL-CORE` | Sends captured data to the target server. | **FAST** |
+| **GPS Tracker** | `GPS-SYNC` | Finds where the device is located. | **STABLE** |
+| **Clipboard Grab** | `CLIP-SYNC` | Checks what was last copied to the clipboard. | **ACTIVE** |
+| **Device Specs** | `DNA-CORE` | Gets info on RAM, CPU, and Battery health. | **STABLE** |
+| **Network Info** | `IP-BYPASS` | Finds the real IP even behind a VPN. | **BYPASS** |
 
 ---
 
-###  Decoy Library
-The framework includes pre-configured testing templates for controlled environments:
-- **Security Diagnostics:** Simulating system integrity checks.
-- **Virtual Meetings:** Hardware calibration for WebRTC-based platforms (Zoom/Teams).
-- **Authentication Verify:** Simulating biometric and facial geometry checks.
-- **Asset Protection:** Secure node and wallet interaction testing.
+### Test Scenarios
+This tool comes with ready-made pages to test different environments:
+- **System Check:** A fake diagnostic page to test user trust.
+- **Meeting Test:** Simulates a Zoom/Teams call setup for media testing.
+- **Identity Verify:** Testing how biometric sensors react to scripts.
+- **Wallet Test:** Checking for vulnerabilities in crypto wallet interactions.
 
 ---
 
-###  System Architecture
+### System Architecture
 
 ```mermaid
 graph TD
-    A[Client Interaction] --> B{Exfiltration Engine}
-    B --> C[Telemetry Analysis]
-    B --> D[Media Storage]
-    B --> E[Telegram Dispatch]
+    A[Target User] --> B{Attack Engine}
+    B --> C[Data Analysis]
+    B --> D[File Storage]
+    B --> E[Telegram Alert]
     style B fill:#10b981,stroke:#000,stroke-width:2px,color:#000
 ```
 
 ---
 
-###  Deployment Protocol
+### How to use it
 
 ```bash
-# Clone the framework
+# Get the tool
 git clone https://github.com/cipher-attack/camphish-pro.git
 
-# Set execution permissions
+# Give permissions
 cd camphish-pro && chmod +x *
 
-# Initialize
+# Start the script
 ./cipher.sh
 ```
 
-> **Expert Note:** Use **Cloudflared (Choice 1)** for WAN-based auditing. For internal laboratory stability, **Localhost (Choice 3)** is the preferred method.
+> **Quick Tip:** Use **Cloudflared (1)** if you're testing over the internet. For local lab tests, **Localhost (3)** is the easiest.
 
 ---
 
-### 👤 THE ARCHITECT
+### 👤 ABOUT ME
 
 <table border="0">
   <tr>
     <td width="150">
-      <img src="https://github.com/cipher-attack.png" width="130" style="border-radius: 15px; border: 2px solid #10b981;" />
+      <img src="[https://github.com/cipher-attack.png](https://github.com/cipher-attack.png)" width="130" style="border-radius: 15px; border: 2px solid #10b981;" />
     </td>
     <td>
       <h3>Biruk Getachew (CIPHER)</h3>
-      <p><i>Offensive Security Researcher & AI Integrator</i></p>
-      <p>12th-grade student focused on Offensive Security and AI. Managing high-precision development workflows directly from mobile ARM interfaces.</p>
+      <p><i>12th Grade Student & Security Researcher</i></p>
+      <p>I'm a self-taught security enthusiast from Ethiopia. I spend my time learning how to break and fix systems. I code and manage all my projects using Termux on my phone.</p>
       <p>
-        <a href="https://github.com/cipher-attack"><b>GitHub</b></a> • 
-        <a href="https://www.youtube.com/@cipher-attack"><b>YouTube</b></a> • 
-        <a href="https://t.me/cipher_attacks"><b>Telegram</b></a>
+        <a href="[https://github.com/cipher-attack](https://github.com/cipher-attack)"><b>GitHub</b></a> • 
+        <a href="[https://www.youtube.com/@cipher-attack](https://www.youtube.com/@cipher-attack)"><b>YouTube</b></a> • 
+        <a href="[https://t.me/cipher_attacks](https://t.me/cipher_attacks)"><b>Telegram</b></a>
       </p>
     </td>
   </tr>
@@ -93,9 +93,9 @@ cd camphish-pro && chmod +x *
 
 ---
 
-### ⚖️ Legal & Ethical Disclosure
-This software is provided strictly for authorized security auditing and educational research. Unauthorized use against systems without explicit consent is prohibited. The developer assumes no liability for misuse.
+### ⚖️ Warning
+This is for educational use only. Don't use it on people without their permission. I am not responsible for what you do with this code. Stay ethical.
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=60&section=footer" />
+  <img src="[https://capsule-render.vercel.app/api?type=waving&color=10b981&height=60&section=footer](https://capsule-render.vercel.app/api?type=waving&color=10b981&height=60&section=footer)" />
 </div>
