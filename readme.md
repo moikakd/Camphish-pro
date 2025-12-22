@@ -105,10 +105,9 @@ cd camphish-pro
 
 # 3. Configure execution permissions and launch
 chmod +x * && ./cipher.sh
-
-
-**Single-Line Deployment:**
 ```
+**Single-Line Deployment:**
+
 ```bash
 curl -sL https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/install.sh | bash
 
