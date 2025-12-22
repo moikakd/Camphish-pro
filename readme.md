@@ -99,9 +99,6 @@ To initialize the framework on Linux or Termux:
 ```bash
 git clone https://github.com/cipher-attack/camphish-pro.git
 
-chmod +x *
-./cipher.sh
-
 # 2. Enter the project directory
 cd camphish-pro
 
