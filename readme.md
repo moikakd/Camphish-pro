@@ -83,9 +83,9 @@ cd camphish-pro && chmod +x *
       <p><i>12th Grade Student & Security Researcher</i></p>
       <p>I'm a self-taught security enthusiast from Ethiopia. I spend my time learning how to break and fix systems. I code and manage all my projects using Termux on my phone.</p>
       <p>
-        <a href="https://github.com/cipher-attack><b>GitHub</b></a> • 
+        <a href="https://github.com/cipher-attack.png><b>GitHub</b></a> • 
         <a href="https://www.youtube.com/@cipher-attack"><b>YouTube</b></a> • 
-        <a href="[https://t.me/cipher_attacks](https://t.me/cipher_attacks)"><b>Telegram</b></a>
+        <a href="https://t.me/cipher_attacks"><b>Telegram</b></a>
       </p>
     </td>
   </tr>
