@@ -75,8 +75,8 @@ cd camphish-pro && chmod +x *
 
 <table border="0">
   <tr>
-    <td width="150">
-      <img src="[https://github.com/cipher-attack.png](https://github.com/cipher-attack.png)" width="130" style="border-radius: 15px; border: 2px solid #10b981;" />
+    <td width="150" align="center">
+      <img src="[https://github.com/cipher-attack.png](https://github.com/cipher-attack.png)" width="130" height="130" style="border-radius: 50%; border: 4px solid #10b981; padding: 5px; background: #0d1117;" />
     </td>
     <td>
       <h3>Biruk Getachew (CIPHER)</h3>
