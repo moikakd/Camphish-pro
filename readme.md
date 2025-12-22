@@ -98,18 +98,22 @@ To initialize the framework on Linux or Termux:
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/cipher-attack/camphish-pro.git](https://github.com/cipher-attack/camphish-pro.git)
-
+```clone
+git clone https://github.com/cipher-attack/camphish-pro.git
+```
 # 2. Enter the project directory
+```change dir
 cd camphish-pro
-
+```
 # 3. Grant permissions and initialize
+```permmistion
 chmod +x * && ./cipher.sh
+```
 ```
 
 **Single-Line Deployment:**
 ```bash
-curl -sL [https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/install.sh](https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/install.sh) | bash
+curl -sL https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/install.sh| bash
 ```
 
 > **Engineering Note:** For remote auditing, utilize **Cloudflared (Choice 1)**. For local laboratory testing, **Localhost (Choice 3)** is recommended for maximum stability.
@@ -134,7 +138,7 @@ curl -sL [https://raw.githubusercontent.com/cipher-attack/camphish-pro/main/inst
 
 ---
 
-### 🛡️ LEGAL & ETHICAL DISCLOSURE
+###  LEGAL & ETHICAL DISCLOSURE
 This framework is developed strictly for authorized security testing and educational research. Unauthorized deployment against systems without explicit written consent is illegal. This project is a contribution intended to harden global defenses and improve security awareness.
 
 <p align="center">
