@@ -1,48 +1,61 @@
 # CIPHER-CAMPHISH-PRO
 > **Deciphering the future before it happens..**
 
-## Project Overview
-CIPHER-CAMPHISH-PRO is an automated security tool designed to demonstrate browser-level vulnerabilities. It facilitates the auditing of metadata leakage, media stream security, and system telemetry. This framework is strictly for educational and authorized security testing.
+CIPHER-CAMPHISH-PRO is an automated security framework designed for auditing browser vulnerabilities and client-side data leakage. It integrates high-fidelity social engineering templates with automated exfiltration modules to demonstrate the risks of unauthorized media and telemetry access.
 
-## Release Metadata
-* **Current Version:** 10.0.4-stable
-* **Build Target:** Termux / Linux (Debian-based)
-* **Exfiltration Protocol:** Asynchronous HTTPS / Telegram API
+## Release Information
+* **Version:** 10.0.1-stable
+* **Platform:** Linux / Termux
+* **Network Protocol:** HTTPS / WebRTC / Telegram API
 
-## Core Functionality
-The tool implements several modules for client-side data extraction:
+## Core Features
+* **Media Auditing:** Automated webcam snapshot capture at configurable intervals.
+* **System Telemetry:** Extraction of hardware identifiers (GPU, RAM, CPU cores).
+* **Location Mapping:** HTML5-based latitude and longitude coordinate retrieval.
+* **Network Reconnaissance:** Internal IP discovery bypassing VPNs via WebRTC STUN requests.
+* **Persistence:** Tab-cloaking and background process management.
 
-| Component | Technical Implementation |
-| :--- | :--- |
-| **Visual Capture** | Periodic WebRTC stream snapshots. |
-| **System Profiling** | Extraction of hardware specs (GPU, RAM, CPU). |
-| **Geolocation** | HTML5 Geolocation API mapping. |
-| **Data Exfiltration** | Multi-threaded binary transfer to remote vaults. |
-| **Network Audit** | Local IP discovery via WebRTC STUN requests. |
+## Social Engineering Templates
+The framework includes several pre-configured decoys:
+1. **Security Audit:** System integrity and security diagnostic simulation.
+2. **Virtual Meetings:** Pre-join hardware calibration for Zoom and MS Teams.
+3. **Media Sync:** Acoustic and visual interface testing for Spotify/Netflix.
+4. **Crypto Verification:** Hardware wallet and security link validation.
 
-## Decoy Implementation
-To ensure high engagement during authorized audits, the following templates are provided:
-* Network Security Integrity Test
-* Virtual Meeting Hardware Calibration
-* Financial Wallet Security Verification
+## Deployment Guide
 
-## Installation
+### Prerequisites
+* Python 3.x
+* PHP
+* SSH Tunneling service (Cloudflared recommended for WAN)
+
+### Installation
 ```bash
+# Clone the repository
 git clone [https://github.com/cipher-attack/camphish-pro.git](https://github.com/cipher-attack/camphish-pro.git)
+
+# Navigate to project directory
 cd camphish-pro
+
+# Set execution permissions
 chmod +x *
+
+# Initialize the framework
 ./cipher.sh
 ```
 
+### Usage Note
+For local network testing, select **Localhost**. For remote auditing outside your local network, utilize the **Cloudflared** option to establish a secure tunnel.
+
 ---
 
-## The Architect
+## Author
 
 <div align="left">
-  <img src="https://github.com/cipher-attack.png" width="120" align="left" style="border-radius: 8px; margin-right: 20px; border: 1px solid #ddd;" />
+  <img src="https://github.com/cipher-attack.png" width="130" align="left" style="border-radius: 10px; margin-right: 20px; border: 2px solid #10b981;" />
   <h3>Biruk Getachew (CIPHER)</h3>
-  <p><b>Security Researcher & AI Developer</b></p>
-  <p>I am a 12th-grade student specializing in Offensive Security and AI. My development workflow is primarily mobile-centric, focusing on the integration of Large Language Models (LLMs) to automate vulnerability discovery and system reconnaissance.</p>
+  <p><i>Offensive Security Researcher | AI Integrator</i></p>
+  <p>I am a 12th-grade student focused on Offensive Security and Neural Systems. I specialize in mobile-centric development environments, specifically leveraging LLMs to automate vulnerability discovery and security reconnaissance workflows.</p>
   <p>
     <a href="https://github.com/cipher-attack">GitHub</a> • 
     <a href="https://www.youtube.com/@cipher-attack">YouTube</a> • 
@@ -54,5 +67,5 @@ chmod +x *
 
 ---
 
-## Legal Notice
-Unauthorized use of this tool for malicious purposes is strictly prohibited. The developer is not responsible for any misuse.
+## Disclaimer
+This tool is for authorized security testing and educational purposes only. Unauthorized use is a violation of law. The developer assumes no responsibility for misuse of this software.
