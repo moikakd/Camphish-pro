@@ -76,21 +76,21 @@ cd camphish-pro && chmod +x *
 <table border="0">
   <tr>
     <td width="150" align="center">
-      <img src="[https://github.com/cipher-attack.png](https://github.com/cipher-attack.png)" width="130" height="130" style="border-radius: 50%; border: 4px solid #10b981; padding: 5px; background: #0d1117;" />
+      <img src="https://github.com/cipher-attack.png" width="130" height="130" style="border-radius: 50%; border: 4px solid #10b981; padding: 5px; background: #0d1117;" />
     </td>
     <td>
       <h3>Biruk Getachew (CIPHER)</h3>
       <p><i>12th Grade Student & Security Researcher</i></p>
       <p>I'm a self-taught security enthusiast from Ethiopia. I spend my time learning how to break and fix systems. I code and manage all my projects using Termux on my phone.</p>
-   <p>
-  <a href="https://github.com/cipher-attack"><b>GitHub</b></a> • 
-  <a href="https://www.youtube.com/@cipher-attack"><b>YouTube</b></a> • 
-  <a href="https://t.me/cipher_attacks"><b>Telegram</b></a>
-</p>
-
+      <p>
+        <a href="https://github.com/cipher-attack"><b>GitHub</b></a> • 
+        <a href="https://www.youtube.com/@cipher-attack"><b>YouTube</b></a> • 
+        <a href="https://t.me/cipher_attacks"><b>Telegram</b></a>
+      </p>
     </td>
   </tr>
 </table>
+
 
 ---
 
